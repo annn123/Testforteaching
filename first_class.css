@@ -1,4 +1,30 @@
-h1,a,p{
-    color: rgb(86, 83, 246);
-    background-color: antiquewhite;
+body{
+    background-color: rgba(213, 213, 196,0.4);
+}
+.title{
+    display: flexbox;
+}
+.intro{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.intro div{
+    width: 30%;
+    height: 50px;
+}
+.st{
+    border: 2px solid seagreen;
+    
+}
+.nd{
+    border: 2px solid rgb(102, 130, 245);
+    
+}
+.rd{
+    border: 2px solid rgb(218, 180, 85);
+    
 }
