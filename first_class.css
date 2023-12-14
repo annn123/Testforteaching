@@ -1,8 +1,18 @@
 body{
-    background-color: rgba(213, 213, 196,0.4);
+    background-color: rgba(248, 248, 215, 0.6);
 }
-.title{
-    display: flexbox;
+
+.web-list{
+    background-color: rgb(171, 210, 216);
+    display:flex;
+    flex-direction: row-reverse;
+}
+.web-list li{
+    display: inline;
+}
+.web-list a{
+    margin: 5px;
+    color: rgb(29, 160, 60);
 }
 .intro{
     display: flex;
@@ -17,13 +27,10 @@ body{
 }
 .st{
     border: 2px solid seagreen;
-    
 }
 .nd{
     border: 2px solid rgb(102, 130, 245);
-    
 }
 .rd{
     border: 2px solid rgb(218, 180, 85);
-    
 }
