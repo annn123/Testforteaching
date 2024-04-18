@@ -7,42 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="first_class.js"></script>
-    <h1>zlcsc</h1>
-    <div class="web-list">
-        <ul>
-            <li id="school">
-                <a href="https://www.zlsh.tp.edu.tw/">學校網站</a>
-            </li id="club">
-            <li>
-                <a href="https://zlshcsc.github.io/">社團網站</a>
-            </li>
-
-        </ul>
-    </div>
-        <h2>zlcsc 幹部介紹</h2>
-    <div class="intro">
-        <div class="st">社長</div>
-        <div class="nd">副社長</div>
-        <div class="rd">教學</div>
-        <div class="st">公關</div>
-        <div class="nd">總務</div>
-        <div class="rd">美宣</div>
-        <div class="st">活動</div>
-        <div class="nd">文書</div>
-        <div class="rd">社團導師</div>
-        
-    </div>
-    <h2>社團活動</h2>
-    <div>
-        <ul>
-            <li>迎新</li>
-            <a>九校聯合迎新</a>
-            <li>講座</li>
-            <a>12/8 社課</a>
-            <li>更多...</li>
-        </ul>
-    </div>
-    
+    <div class="calculator">
+        <input type="text" id="output" disabled>
+        <div class="buttons">
+          <button onclick="appendToOutput('1')">1</button>
+          <button onclick="appendToOutput('2')">2</button>
+          <button onclick="appendToOutput('3')">3</button>
+          <button onclick="appendToOutput('+')">+</button>
+          <button onclick="appendToOutput('4')">4</button>
+          <button onclick="appendToOutput('5')">5</button>
+          <button onclick="appendToOutput('6')">6</button>
+          <button onclick="appendToOutput('-')">-</button>
+          <button onclick="appendToOutput('7')">7</button>
+          <button onclick="appendToOutput('8')">8</button>
+          <button onclick="appendToOutput('9')">9</button>
+          <button onclick="appendToOutput('*')">*</button>
+          <button onclick="appendToOutput('0')">0</button>
+          <button onclick="appendToOutput('.')">.</button>
+          <button onclick="clearOutput()">C</button>
+          <button onclick="calculate()">=</button>
+          <button onclick="appendToOutput('/')">/</button>
+        </div>
+      </div>
+      
+      <script src="first_class.js"></script>
 </body>
 </html>
