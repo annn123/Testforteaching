@@ -1,17 +1,43 @@
 body {
+  background-color: rgb(209, 241, 241);
+}
+
+
+.menu-list{
+  background-color: #345288;
+}
+.menu-list ul{
+  padding:8px 5px 8px;
+  text-align: center;
+}
+.menu-list li{
+  display:inline;
+}
+
+.menu-list a{
+  color:rgb(196, 151, 77)
+}
+.menu-list a:hover {
+  background-color: rgba(174, 168, 168,0.5);
+}
+
+.cal{
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 100vh;
     margin: 0;
   }
+ 
   
   .calculator {
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    flex-wrap: wrap;
+    background-color: #ccc;
   }
   
   .buttons {
@@ -31,4 +57,4 @@ body {
   
   button:hover {
     background-color: #b8ccef;
-  }
+  } 
