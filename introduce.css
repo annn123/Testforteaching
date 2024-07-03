@@ -1,0 +1,12 @@
+.contain{
+    color: black;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+a{
+    color: rgb(53, 60, 75);
+}
+img{
+    width: 100%;
+}
