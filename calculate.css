@@ -1,32 +1,8 @@
-body {
-  background-color: rgb(209, 241, 241);
-}
-
-
-.menu-list{
-  background-color: #345288;
-}
-.menu-list ul{
-  padding:8px 5px 8px;
-  text-align: center;
-}
-.menu-list li{
-  display:inline;
-}
-
-.menu-list a{
-  color:rgb(196, 151, 77)
-}
-.menu-list a:hover {
-  background-color: rgba(174, 168, 168,0.5);
-}
-
 .cal{
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 100vh;
+    justify-content: center;
+    height: 40vh;
     margin: 0;
   }
  
