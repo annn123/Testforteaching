@@ -1,12 +1,6 @@
-.contain{
-    color: black;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+.interesting a{
+    font-size: 30px;
 }
-a{
-    color: rgb(53, 60, 75);
-}
-img{
-    width: 100%;
+.interesting ul{
+    font-size: 24px;
 }
