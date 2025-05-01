@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="calculate/calculate.css">
+    <title>Document</title>
+</head>
+<body>
+  <h1>社團教學成果：</h1>
+  <div class="menu-list ">
+    <div>
+      <ul class="drop-down-menu">
+        <li><a href="index.html">首頁</a></li>
+        <li><a>成果</a>
+          <ul class="drop-one">
+            <li><a href="calculate/first_class.html">成果1(計算機)</a>
+            </li>
+            <li><a href="#">成果2</a>
+            </li>
+            <li><a href="#">成果3</a>
+            </li>
+            <li><a href="#">成果4</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="https://zlshcsc.github.io/">社團網站</a></li>
+      </ul><br>
+    </div>
+  </div>
+
+  <h2>計算機</h2>
+  <div class="cal">
+    <div class="calculator">
+          <input type="text" id="output" disabled>
+          <div class="buttons">
+            <button onclick="appendToOutput('1')">1</button>
+            <button onclick="appendToOutput('2')">2</button>
+            <button onclick="appendToOutput('3')">3</button>
+            <button onclick="appendToOutput('+')">+</button>
+            <button onclick="appendToOutput('4')">4</button>
+            <button onclick="appendToOutput('5')">5</button>
+            <button onclick="appendToOutput('6')">6</button>
+            <button onclick="appendToOutput('-')">-</button>
+            <button onclick="appendToOutput('7')">7</button>
+            <button onclick="appendToOutput('8')">8</button>
+            <button onclick="appendToOutput('9')">9</button>
+            <button onclick="appendToOutput('*')">*</button>
+            <button onclick="appendToOutput('0')">0</button>
+            <button onclick="appendToOutput('.')">.</button>
+            <button onclick="clearOutput()">AC</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToOutput('/')">/</button>
+          </div>
+        </div>
+      <script src="scfirst_class.js"></script>
+</body>
+</html>
